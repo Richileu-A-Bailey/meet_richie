@@ -54,10 +54,9 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h1>Page 3</h1>
-            <h2>
+            <h5>
               Docs <span>-&gt;</span>
-            </h2>
+            </h5>
             <p>
               Find in-depth information about Next.js features and&nbsp;API.
             </p>
@@ -69,9 +68,9 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2>
+            <h5>
               Learn <span>-&gt;</span>
-            </h2>
+            </h5>
             <p>
               Learn about Next.js in an interactive course with&nbsp;quizzes!
             </p>
@@ -82,9 +81,9 @@ export default function Home() {
             className={styles.card}
             
           >
-            <h2>
+            <h5>
               Index page <span>-&gt;</span>
-            </h2>
+            </h5>
             <p>
               Go to index page
             </p>
@@ -94,9 +93,9 @@ export default function Home() {
             href="/product/page2"
             className={styles.card}
           >
-            <h2>
+            <h5>
               Page2 <span>-&gt;</span>
-            </h2>
+            </h5>
             <p>
               Go to page 2.
             </p>
