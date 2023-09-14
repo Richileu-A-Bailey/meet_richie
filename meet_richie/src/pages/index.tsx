@@ -92,20 +92,17 @@ export default function Home() {
             </p>
           </Link>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          <Link
+            href="/page3"
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
           >
             <h2>
-              Deploy <span>-&gt;</span>
+              Page3 <span>-&gt;</span>
             </h2>
             <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
+              Go to page 3.
             </p>
-          </a>
+          </Link>
         </div>
       </main>
     </>
